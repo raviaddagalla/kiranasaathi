@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "primary-fixed": "#a4f4c3", "inverse-on-surface": "#f0f1ee", "on-tertiary-fixed": "#291800", "tertiary-fixed": "#ffddb4", "tertiary-container": "#825400", "error": "#ba1a1a", "on-tertiary-container": "#ffcf92", "on-primary-fixed-variant": "#005232", "outline-variant": "#bfc9c0", "surface": "#f9faf7", "secondary-container": "#fed265", "surface-container-lowest": "#ffffff", "on-secondary-fixed": "#251a00", "tertiary": "#623f00", "on-error": "#ffffff", "primary-container": "#176b45", "on-surface-variant": "#3f4942", "on-background": "#191c1b", "secondary-fixed-dim": "#ecc156", "surface-container": "#edeeeb", "inverse-surface": "#2e312f", "tertiary-fixed-dim": "#feb956", "on-secondary-fixed-variant": "#5a4400", "surface-tint": "#186c45", "on-secondary-container": "#755900", "error-container": "#ffdad6", "on-tertiary": "#ffffff", "surface-container-highest": "#e2e3e0", "surface-dim": "#d9dad8", "on-primary": "#ffffff", "on-secondary": "#ffffff", "surface-container-high": "#e7e8e6", "on-tertiary-fixed-variant": "#633f00", "surface-variant": "#e2e3e0", "outline": "#6f7a71", "on-surface": "#191c1b", "inverse-primary": "#88d7a8", "background": "#f9faf7", "primary-fixed-dim": "#88d7a8", "on-error-container": "#93000a", "surface-bright": "#f9faf7", "primary": "#005131", "surface-container-low": "#f3f4f1", "on-primary-fixed": "#002111", "secondary-fixed": "#ffdf97", "on-primary-container": "#99e9b9", "secondary": "#775a00" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "margin": "1rem", "space-md": "1rem", "space-xl": "2rem", "gutter-sm": "0.5rem", "space-lg": "1.5rem", "margin-tablet": "1.5rem", "gutter": "1rem", "margin-mobile": "1rem", "space-xs": "0.25rem", "gutter-lg": "1.5rem" }, "fontFamily": { "label-md": ["Inter"], "label-lg": ["Inter"], "currency-display": ["Inter"], "headline-lg": ["Inter"], "display-lg": ["Inter"], "currency-body": ["Inter"], "body-md": ["Inter"], "title-md": ["Inter"], "body-sm": ["Inter"], "headline-md": ["Inter"], "headline-sm": ["Inter"], "body-lg": ["Inter"], "label-sm": ["Inter"] }, "fontSize": { "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}], "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}], "currency-display": ["20px", {"lineHeight": "24px", "fontWeight": "700"}], "headline-lg": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600"}], "display-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}], "currency-body": ["15px", {"lineHeight": "20px", "fontWeight": "700"}], "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "title-md": ["16px", {"lineHeight": "24px", "fontWeight": "600"}], "body-sm": ["12px", {"lineHeight": "16px", "fontWeight": "400"}], "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}], "headline-sm": ["18px", {"lineHeight": "24px", "fontWeight": "600"}], "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "500"}] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex justify-between items-center px-margin-mobile h-6 pt-1 text-on-surface-variant"><span class="font-label-sm text-label-sm font-semibold tracking-wide">9:41</span><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px]">signal_cellular_4_bar</span><span class="material-symbols-outlined text-[16px]">wifi</span><span class="material-symbols-outlined text-[18px]">battery_full</span></div></div><div class="h-20 px-margin-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="KiranaSaathi Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEX8BOdeTSaCDsy5DW9o2GWp1cBVsks5rD_1LLBjiywsq0PtmBAGzXI2DXKrp9t383XIE6d20phPPF5iWdn7MVY0m8_AGJ7XziiIOLUEmVWB14DbL89xcsgbNPhSiQk_TNg5d5BJuk0yXmecw1gyef7nmG1i1oRmgRrAs2viiQQFAMX9TEiHpjyibyoYle7np8IrdlKpHyDDru1i2oqHbASV3PDRS1SX4cUlEiHaHM"/><div class="flex flex-col min-w-0"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-primary truncate">KiranaSaathi</span><span class="bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm px-space-xs py-0.5 rounded-full uppercase tracking-wider flex-shrink-0">Merchant</span></div><span class="font-body-sm text-body-sm text-on-surface-variant truncate">Demand Insights</span></div></div><div class="flex items-center gap-space-sm flex-shrink-0"><div class="flex items-center gap-1 bg-surface-container-low px-space-sm py-1 rounded-full"><span class="material-symbols-outlined text-[16px] text-primary">storefront</span><span class="font-label-sm text-label-sm text-on-surface max-w-[100px] truncate">Sri Lakshmi</span></div><button class="w-11 h-11 flex items-center justify-center p-0.5 rounded-full ring-2 ring-primary-fixed"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCULj1Uj9dbGPJ6Z8CJ9JGDFuT6lv711m-Ddot_xUKoA0KERMjh8OoujEDhwekLLj3FlTiNUrKV6s-WnFdztXqf7cLY99iR-645V6ksagjclTObOySwBt3wJcL8ArvAP4V805DU_tkCagzkvImRZB3rZZiBdVtS4-DaWa8hL9xthEl3_o1zQw2es3UYIOc3hV4I85tl-_cGNaMIyNUPYBwL6besUYPWD9uqi9k3x-x0"/></button></div></div></header><main class="flex flex-col relative w-full pt-20 pb-28 px-margin-mobile bg-surface min-h-screen"><div class="flex flex-col w-full pb-6 space-y-space-md">
+<!-- Contextual Sub-header / Merchant Banner -->
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-sm relative overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-24 h-24 bg-primary-fixed/20 rounded-full blur-xl pointer-events-none"></div>
+<div class="flex items-start justify-between gap-space-sm relative z-10">
+<div class="flex flex-col space-y-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">hub</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Community Demand Intelligence</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">Sri Lakshmi Kirana <span class="font-body-sm text-body-sm font-normal text-on-surface-variant">(Ramesh Kumar)</span></h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Aggregated demand patterns from Banjara Hills. See what your neighborhood searched for today but could not find.
+        </p>
+</div>
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center flex-shrink-0 text-on-secondary-container shadow-sm">
+<span class="material-symbols-outlined text-[20px]">radar</span>
+</div>
+</div>
+</div>
+<!-- Time-range Horizon Selector -->
+<div class="flex items-center gap-space-xs overflow-x-auto no-scrollbar py-0.5" id="timeframe-bar">
+<button class="timeframe-btn flex items-center gap-1.5 px-space-md py-2 rounded-full font-label-md text-label-md whitespace-nowrap bg-primary text-on-primary shadow-sm transition-all" data-period="today" type="button">
+<span class="w-2 h-2 rounded-full bg-primary-fixed animate-pulse"></span>
+      Today (14 Jun)
+    </button>
+<button class="timeframe-btn flex items-center gap-1 px-space-md py-2 rounded-full font-label-md text-label-md whitespace-nowrap bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all" data-period="3days" type="button">
+      Last 3 Days (12-14 Jun)
+    </button>
+<button class="timeframe-btn flex items-center gap-1 px-space-md py-2 rounded-full font-label-md text-label-md whitespace-nowrap bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all" data-period="7days" type="button">
+      Last 7 Days
+    </button>
+</div>
+<!-- Key Metric Highlights Grid (4 compact cards) -->
+<div class="grid grid-cols-2 gap-space-sm">
+<!-- Metric 1: Unmet Demands -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Unmet Requests</span>
+<div class="w-7 h-7 rounded-lg bg-error-container text-on-error-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[16px]">search_off</span>
+</div>
+</div>
+<div class="mt-space-sm">
+<div class="font-display-lg text-display-lg font-bold text-on-surface">48</div>
+<div class="flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-error text-[14px]">arrow_upward</span>
+<span class="font-label-sm text-label-sm text-error font-medium">+18% vs yesterday</span>
+</div>
+</div>
+</div>
+<!-- Metric 2: Emerging Products -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Emerging SKUs</span>
+<div class="w-7 h-7 rounded-lg bg-primary-fixed text-on-primary-fixed-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+</div>
+</div>
+<div class="mt-space-sm">
+<div class="font-display-lg text-display-lg font-bold text-on-surface">7</div>
+<div class="flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-primary text-[14px]">trending_up</span>
+<span class="font-label-sm text-label-sm text-primary font-medium">New catalog items</span>
+</div>
+</div>
+</div>
+<!-- Metric 3: Recurring Demands -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Persistent Shortage</span>
+<div class="w-7 h-7 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[16px]">repeat</span>
+</div>
+</div>
+<div class="mt-space-sm">
+<div class="font-display-lg text-display-lg font-bold text-on-surface">3</div>
+<div class="flex items-center gap-1 mt-0.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">&gt;2 days recurrent</span>
+</div>
+</div>
+</div>
+<!-- Metric 4: Est Lost Sales -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Missed Opportunity</span>
+<div class="w-7 h-7 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[16px]">currency_rupee</span>
+</div>
+</div>
+<div class="mt-space-sm">
+<div class="font-currency-display text-currency-display text-tertiary font-bold">₹4,200</div>
+<div class="flex items-center gap-1 mt-0.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Est. walk-away value</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Neighborhood Pulse Visualizer Bar -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">location_on</span>
+<span class="font-label-md text-label-md text-on-surface">1.5 km Geofence Activity</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">High Intent Hours: 6 AM - 9 AM</span>
+</div>
+<!-- Simple CSS bar chart representing hourly search spike -->
+<div class="flex items-end justify-between h-12 pt-2 px-1 gap-1">
+<div class="flex flex-col items-center flex-1 h-full justify-end">
+<div class="w-full bg-primary-fixed/40 rounded-t h-[35%]"></div>
+<span class="font-label-sm text-[9px] text-on-surface-variant mt-1">6a</span>
+</div>
+<div class="flex flex-col items-center flex-1 h-full justify-end">
+<div class="w-full bg-primary rounded-t h-[95%]"></div>
+<span class="font-label-sm text-[9px] text-primary font-bold mt-1">8a</span>
+</div>
+<div class="flex flex-col items-center flex-1 h-full justify-end">
+<div class="w-full bg-primary-fixed/60 rounded-t h-[60%]"></div>
+<span class="font-label-sm text-[9px] text-on-surface-variant mt-1">10a</span>
+</div>
+<div class="flex flex-col items-center flex-1 h-full justify-end">
+<div class="w-full bg-primary-fixed/40 rounded-t h-[25%]"></div>
+<span class="font-label-sm text-[9px] text-on-surface-variant mt-1">1p</span>
+</div>
+<div class="flex flex-col items-center flex-1 h-full justify-end">
+<div class="w-full bg-primary-fixed/70 rounded-t h-[75%]"></div>
+<span class="font-label-sm text-[9px] text-on-surface-variant mt-1">6p</span>
+</div>
+<div class="flex flex-col items-center flex-1 h-full justify-end">
+<div class="w-full bg-primary rounded-t h-[85%]"></div>
+<span class="font-label-sm text-[9px] text-primary font-bold mt-1">8p</span>
+</div>
+<div class="flex flex-col items-center flex-1 h-full justify-end">
+<div class="w-full bg-primary-fixed/30 rounded-t h-[20%]"></div>
+<span class="font-label-sm text-[9px] text-on-surface-variant mt-1">10p</span>
+</div>
+</div>
+</div>
+<!-- Demand Opportunity Heading -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">local_fire_department</span>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Top Products Customers Are Looking For</h3>
+</div>
+<span class="bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm px-2 py-0.5 rounded-full font-bold">3 Priorities</span>
+</div>
+<!-- List of Demand Product Cards -->
+<div class="flex flex-col space-y-space-md">
+<!-- PRODUCT CARD 1: Heritage Toned Milk -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-sm relative overflow-hidden transition-all duration-200">
+<!-- Top Tag Badge -->
+<div class="flex items-center justify-between gap-space-xs">
+<div class="inline-flex items-center gap-1.5 bg-secondary-container px-2.5 py-1 rounded-full text-on-secondary-container font-label-sm text-label-sm font-bold shadow-xs">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span>
+<span>Recurring Demand · 3 Days in a row</span>
+</div>
+<span class="font-currency-body text-currency-body text-primary font-bold">Est. ₹650/day</span>
+</div>
+<!-- Main Product Info Row -->
+<div class="flex items-start gap-space-sm">
+<div class="w-16 h-16 rounded-lg bg-surface-container overflow-hidden flex-shrink-0 shadow-inner flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Close up commercial studio product photo of a fresh Heritage brand fresh pasteurized toned milk pouch packet 500ml on clean surface with cool condensation droplets" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXD_pV_oU64rogEPbmdeWUjCFORkgLUnC2cebkAvAD4qb6IAobn6W8y5_dbh-Pme-B8Pf_34l8oc8YB8P9OeB2OE9uIcVkqnw0dMl2xT_oqSgaAWC-M_V24kXIJoUO6Oq_mdZL68_FiDYRFj5RU18JJPaUgI3Ae64eYDxsd0sVbfeDcrxUXEHYbVIiXlT-BEBL1nXkqAFxM7jl9L-u6bIMIyqsQf958hv7uDY6jpWa"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm bg-surface-container px-1.5 py-0.5 rounded text-on-surface-variant">Dairy</span>
+<span class="font-label-sm text-label-sm text-error font-medium flex items-center gap-0.5">
+<span class="w-1.5 h-1.5 rounded-full bg-error"></span>
+              Not in your inventory
+            </span>
+</div>
+<h4 class="font-title-md text-title-md text-on-surface font-bold truncate mt-0.5">Heritage Toned Milk (500 ml)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[14px] text-primary">person_search</span>
+<strong class="text-on-surface font-semibold">28 searches</strong> around your 1.5 km radius
+          </p>
+</div>
+</div>
+<!-- Nearby Context Strip -->
+<div class="bg-surface-container-low rounded-lg p-space-sm flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-on-surface-variant text-[16px] mt-0.5">store</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">
+<strong class="text-on-surface font-medium">Nearby Competition:</strong> Only 1 nearby shop had it in stock today, and they sold out completely by <span class="font-semibold text-on-surface">8:00 AM</span>.
+        </p>
+</div>
+<!-- AI Saathi Insight Suggestion Box -->
+<div class="bg-primary-fixed/25 rounded-lg p-space-sm flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5">smart_toy</span>
+<div class="flex-1">
+<span class="font-label-sm text-label-sm text-primary font-bold block uppercase tracking-wider">Saathi Supply Advice</span>
+<p class="font-body-sm text-body-sm text-on-surface mt-0.5">
+            High unmet morning tea-time demand. Consider requesting <strong class="font-semibold text-primary">15–20 packets</strong> from your Heritage distributor tonight.
+          </p>
+</div>
+</div>
+<!-- Card Action Buttons -->
+<div class="flex items-center gap-space-sm pt-1">
+<button class="flex-1 h-12 bg-primary text-on-primary rounded-lg font-label-lg text-label-lg font-semibold flex items-center justify-center gap-1.5 shadow-sm active:bg-primary-container transition-all" onclick="showToast('Heritage Milk added to wholesale requisition list!')" type="button">
+<span class="material-symbols-outlined text-[18px]">add_box</span>
+<span>+ Add to Inventory</span>
+</button>
+<button class="px-space-md h-12 bg-surface-container-high text-on-surface rounded-lg font-label-lg text-label-lg font-medium flex items-center justify-center gap-1 hover:bg-surface-container-highest transition-all" onclick="showToast('Generating neighborhood breakdown...')" type="button">
+<span class="material-symbols-outlined text-[18px]">analytics</span>
+<span class="hidden sm:inline">Report</span>
+</button>
+</div>
+</div>
+<!-- PRODUCT CARD 2: Amul Lactose-Free Milk -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-sm relative overflow-hidden transition-all duration-200">
+<!-- Top Tag Badge -->
+<div class="flex items-center justify-between gap-space-xs">
+<div class="inline-flex items-center gap-1.5 bg-primary-fixed px-2.5 py-1 rounded-full text-on-primary-fixed-variant font-label-sm text-label-sm font-bold shadow-xs">
+<span class="material-symbols-outlined text-[14px]">electric_bolt</span>
+<span>Newly Emerging Demand</span>
+</div>
+<span class="bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm px-2 py-0.5 rounded-full font-semibold">Margin ~22%</span>
+</div>
+<!-- Main Product Info Row -->
+<div class="flex items-start gap-space-sm">
+<div class="w-16 h-16 rounded-lg bg-surface-container overflow-hidden flex-shrink-0 shadow-inner flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="A photo of Amul lactose free fresh milk tetra pak carton 1 litre container cleanly illuminated on a grocery store marble shelf" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLWEDydzdcmdH4n1fSIQuIONxylux9acoxFnu2ds0u-BkFim__iYBI7KBcqIHMtqieCfHlKoczdviuM8IZEVf0jSItPsvclIwNtsxFIZhBsq8fG3bQmNsai5oS_qyti3vy8EAlJhwv1Oegdk9P3Q8-1N7Hzf4Cd3HBK5mMTPHFCaJBfDy_SLMDGQ2tzEgsWMUZgukGLP4CKNcgA9vRCUPMVAf2X3GM_wPytAkahPyA"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm bg-surface-container px-1.5 py-0.5 rounded text-on-surface-variant">Packaged Beverage</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Not catalogued</span>
+</div>
+<h4 class="font-title-md text-title-md text-on-surface font-bold truncate mt-0.5">Amul Lactose-Free Fresh Milk (1L Tetra Pak)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[14px] text-primary">trending_up</span>
+<strong class="text-on-surface font-semibold">14 customer searches</strong> in past 48 hours
+          </p>
+</div>
+</div>
+<!-- AI Saathi Insight Suggestion Box -->
+<div class="bg-tertiary-fixed/30 rounded-lg p-space-sm flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-tertiary text-[18px] mt-0.5">lightbulb</span>
+<div class="flex-1">
+<span class="font-label-sm text-label-sm text-tertiary font-bold block uppercase tracking-wider">Demographic Trend</span>
+<p class="font-body-sm text-body-sm text-on-surface mt-0.5">
+            Young families and health-conscious customers asking around Road No. 12. Premium high-margin shelf product with 6-month shelf life.
+          </p>
+</div>
+</div>
+<!-- Card Action Button -->
+<div class="pt-1">
+<button class="w-full h-12 bg-primary text-on-primary rounded-lg font-label-lg text-label-lg font-semibold flex items-center justify-center gap-1.5 shadow-sm active:bg-primary-container transition-all" onclick="showToast('Amul Lactose-Free requested from distributor!')" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>+ Stock This Product</span>
+</button>
+</div>
+</div>
+<!-- PRODUCT CARD 3: Britannia Whole Wheat Bread -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-sm relative overflow-hidden transition-all duration-200">
+<!-- Top Tag Badge -->
+<div class="flex items-center justify-between gap-space-xs">
+<div class="inline-flex items-center gap-1.5 bg-error-container px-2.5 py-1 rounded-full text-on-error-container font-label-sm text-label-sm font-bold shadow-xs">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+<span>Stocked but ran out early</span>
+</div>
+<span class="font-label-sm text-label-sm text-error font-bold">Lost 11 sales</span>
+</div>
+<!-- Main Product Info Row -->
+<div class="flex items-start gap-space-sm">
+<div class="w-16 h-16 rounded-lg bg-surface-container overflow-hidden flex-shrink-0 shadow-inner flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Commercial packet of Britannia 100 percent whole wheat brown bread 400g green package in clear lighting on clean wooden bakery board" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTzLb5ijX8cRgnAVaH7ojHA8P9TwxmfNfiE3DI4elv588tOQM4Ob2FYhN9-dYekT17jmlRM8G95zouHSBezdMxZyivGYszh9Mt_7cgXSqLGHZu-t5RrFDW_AOo_YdzmvyV0y2ohDBBvN5_Lo06wq50ya8GHFp9qYMa-6pHIzxXuB7A8SpA5J6XV5gOel9che-X5yAIHPDXsGRzb_su-kS9wzYgFqID6-ODDkj5De5L"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm bg-surface-container px-1.5 py-0.5 rounded text-on-surface-variant">Bakery</span>
+<span class="font-label-sm text-label-sm text-tertiary font-medium">Currently Stocked</span>
+</div>
+<h4 class="font-title-md text-title-md text-on-surface font-bold truncate mt-0.5">Britannia 100% Whole Wheat Bread (400g)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[14px] text-error">query_stats</span>
+            Searched 11 times while marked ‘Out of Stock’ (5 PM – 8 PM)
+          </p>
+</div>
+</div>
+<!-- Stock Buffer Suggestion Box -->
+<div class="bg-surface-container-high rounded-lg p-space-sm flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-on-surface-variant text-[18px] mt-0.5">tune</span>
+<div class="flex-1">
+<span class="font-label-sm text-label-sm text-on-surface font-bold block">Buffer Optimization</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            Your daily order of 5 loaves runs out before peak dinner rush. Increase evening replenishment buffer from <strong class="text-on-surface">5 to 12 packets</strong>.
+          </p>
+</div>
+</div>
+<!-- Card Action Button -->
+<div class="pt-1">
+<button class="w-full h-12 bg-secondary-container text-on-secondary-container rounded-lg font-label-lg text-label-lg font-semibold flex items-center justify-center gap-1.5 shadow-sm active:bg-secondary transition-all" onclick="showToast('Minimum stock buffer updated to 12 packets!')" type="button">
+<span class="material-symbols-outlined text-[18px]">published_with_changes</span>
+<span>Update Minimum Stock Threshold</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Neighborhood Voice: Community Search Cloud -->
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-sm space-y-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px]">forum</span>
+        Other Repeated Search Terms Today
+      </span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">12 keywords</span>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-1">
+<div class="bg-surface-container-lowest px-3 py-1.5 rounded-full flex items-center gap-1.5 text-on-surface shadow-xs">
+<span class="font-body-sm text-body-sm font-medium">Yakult Probiotic (5pk)</span>
+<span class="font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed-variant px-1.5 rounded-full font-bold">9</span>
+</div>
+<div class="bg-surface-container-lowest px-3 py-1.5 rounded-full flex items-center gap-1.5 text-on-surface shadow-xs">
+<span class="font-body-sm text-body-sm font-medium">Organic Jaggery Powder</span>
+<span class="font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed-variant px-1.5 rounded-full font-bold">8</span>
+</div>
+<div class="bg-surface-container-lowest px-3 py-1.5 rounded-full flex items-center gap-1.5 text-on-surface shadow-xs">
+<span class="font-body-sm text-body-sm font-medium">Epigamia Greek Yogurt</span>
+<span class="font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed-variant px-1.5 rounded-full font-bold">6</span>
+</div>
+<div class="bg-surface-container-lowest px-3 py-1.5 rounded-full flex items-center gap-1.5 text-on-surface shadow-xs">
+<span class="font-body-sm text-body-sm font-medium">Tata Salt Lite (1kg)</span>
+<span class="font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed-variant px-1.5 rounded-full font-bold">5</span>
+</div>
+</div>
+</div>
+<!-- Privacy & Transparency Banner -->
+<div class="bg-surface-container rounded-xl p-space-md shadow-xs flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center flex-shrink-0 text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+</div>
+<div class="flex-1">
+<h5 class="font-label-lg text-label-lg text-on-surface font-bold">Neighborhood Privacy Guarantee</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mt-0.5">
+        All signals are anonymized aggregates from customer app searches within a 1.5 km neighborhood geofence. No individual customer details, names, phone numbers, or personal queries are ever disclosed.
+      </p>
+</div>
+</div>
+<!-- Floating Toast Notification for Feedback -->
+<div class="fixed bottom-20 left-1/2 -translate-x-1/2 z-50 bg-inverse-surface text-inverse-on-surface px-space-md py-2.5 rounded-full shadow-lg flex items-center gap-2 font-label-md text-label-md pointer-events-none transition-all duration-300 opacity-0 translate-y-2" id="saathi-toast">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">check_circle</span>
+<span id="toast-text">Action completed</span>
+</div>
+</div>
+<script>
+  // Simple toast feedback utility
+  function showToast(message) {
+    const toast = document.getElementById('saathi-toast');
+    const label = document.getElementById('toast-text');
+    if (!toast || !label) return;
+    label.textContent = message;
+    toast.classList.remove('opacity-0', 'translate-y-2');
+    toast.classList.add('opacity-100', 'translate-y-0');
+    setTimeout(() => {
+      toast.classList.remove('opacity-100', 'translate-y-0');
+      toast.classList.add('opacity-0', 'translate-y-2');
+    }, 2400);
+  }
+
+  // Interactive pill selection logic
+  document.querySelectorAll('.timeframe-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.timeframe-btn').forEach(b => {
+        b.className = 'timeframe-btn flex items-center gap-1 px-space-md py-2 rounded-full font-label-md text-label-md whitespace-nowrap bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all';
+      });
+      this.className = 'timeframe-btn flex items-center gap-1.5 px-space-md py-2 rounded-full font-label-md text-label-md whitespace-nowrap bg-primary text-on-primary shadow-sm transition-all';
+      showToast('Loaded demand trends for ' + this.textContent.trim());
+    });
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-1px_8px_rgba(0,0,0,0.04)]" data-active-classes="text-primary [&amp;&gt;div]:bg-primary-fixed [&amp;&gt;div]:text-on-primary-fixed"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[48px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="merchant-dashboard" href="#"><div class="w-14 h-8 rounded-full flex items-center justify-center transition-colors"><span class="material-symbols-outlined text-[22px]">dashboard</span></div><span class="font-label-sm text-label-sm font-medium">Dashboard</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[48px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="live-inventory" href="#"><div class="w-14 h-8 rounded-full flex items-center justify-center transition-colors"><span class="material-symbols-outlined text-[22px]">inventory_2</span></div><span class="font-label-sm text-label-sm font-medium">Inventory</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[48px] transition-colors text-primary [&amp;&gt;div]:bg-primary-fixed [&amp;&gt;div]:text-on-primary-fixed" data-path="demand-insights" href="#"><div class="w-14 h-8 rounded-full flex items-center justify-center transition-colors"><span class="material-symbols-outlined text-[22px]">trending_up</span></div><span class="font-label-sm text-label-sm font-medium">Demand</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[48px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="daily-ledger-report" href="#"><div class="w-14 h-8 rounded-full flex items-center justify-center transition-colors"><span class="material-symbols-outlined text-[22px]">receipt_long</span></div><span class="font-label-sm text-label-sm font-medium">Reports</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[48px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="store-settings" href="#"><div class="w-14 h-8 rounded-full flex items-center justify-center transition-colors"><span class="material-symbols-outlined text-[22px]">tune</span></div><span class="font-label-sm text-label-sm font-medium">Settings</span></a></div><div class="flex justify-center items-center pb-1 pt-0.5"><div class="w-28 h-1 bg-on-surface-variant/30 rounded-full"></div></div></nav></body></html>
